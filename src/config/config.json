@@ -1,0 +1,6 @@
+{
+  "prefix": "/api",
+  "mongoURL": "MONGO_URL_HERE (Get one from mongo atlas)",
+  "port": 5000,
+  "host": "HOST"
+}
