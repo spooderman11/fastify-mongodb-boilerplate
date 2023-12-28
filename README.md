@@ -40,7 +40,7 @@ Step 3: There is a config.json file in `./src/config` directory. You need to fil
 - `prefix` is the prefix for the routes. You can leave it blank if you don't want to use any prefix.
 - `mongoURL` is the URL to connect to your database. You can find it in your database cluster settings.
 - `port` is the port on which you want to run your server.
-- `host` is the host you want to run your server on. By default it is `localhost`. You can also set it to `
+- `host` is the host you want to run your server on. By default it is `localhost`. You can also set it to `0.0.0.0` if you want to run it on your IP address.
 
 Step 4: Run the server
 
