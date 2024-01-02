@@ -51,6 +51,7 @@ Step 4: Run the server
 - All the files, and folders besides `config` are pre-configured, and you can use them as templates to add your own routes, models and static files.
 - This project is also configured to use @fastiy/cors, and @fastify/static. You can install other plugins/remove these plugins as per your need. You can find more plugins on [Fastify's website](https://fastify.dev/ecosystem/)
 - The project has test routes which have docs in them to explain how to use them for your custom routes. Feel free to play around with the testing routes, or duplicate them to make your own routes!
+- Sometimes the program can crash without throwing any errors, or logging the routes. To fix this bug/issue, please double check the `url` value in each of your fastify routes, and make sure they don't have the same value as another route eg. `url: '/test'` should not be same as `url: '/test'` in another route. This issue is related to fastify and will be possibly fixed in the future
 
 ## Contributing
 
