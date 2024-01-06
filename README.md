@@ -14,7 +14,7 @@ git clone https://github.com/spooderman11/fastify-mongodb-boilerplate.git
 
 Step 2: Install dependencies
 
-~~ - This might get a little difficul if you're using NPM, because this project was soley built using yarn. There might be some issues while installing dependencies using NPM. So I'll recommend you to use yarn instead. Install it using `scoop` or `chocolatey` if you're on Windows. Or you can install it manually by downloading from their [website](https://classic.yarnpkg.com/en/docs/install/). ~~ (Just run `npm install` to convert `yarn.lock` to `package-lock.json`)
+- to convert the yarn.lock file to package-lock.json file, just run `npm install` in the directory
 
 ```bash
 yarn install
